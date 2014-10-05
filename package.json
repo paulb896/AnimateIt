@@ -1,0 +1,8 @@
+{
+  "name": "animateIt",
+  "description": "Angular Animations",
+  "version": "0.0.1",
+  "dependencies": {
+    "bower": "~1.3.12"
+  }
+}
