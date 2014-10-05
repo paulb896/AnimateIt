@@ -26,10 +26,10 @@ In the animateIt directory:
 ```
  > npm install
 
-``
+```
 
 Then install bower dependencies
-``
+```
  > node node_modules/bower/bin/bower install
 
 ```
