@@ -7,6 +7,8 @@
   "description": "Angular animations",
   "dependencies": {
     "angular":"1.2.9",
+    "angular-animate":"1.2.9",
+    "angular-touch":"1.2.9",
     "bootstrap":"~3.2.0"
   }
 }
