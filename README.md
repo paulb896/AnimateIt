@@ -20,7 +20,7 @@ In the command prompt:
 
         git clone https://github.com/paulb896/AnimateIt
 
-* In the animateIt directory:
+* In the AnimateIt directory:
 
         npm install
 
