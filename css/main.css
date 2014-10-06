@@ -42,11 +42,12 @@ li{
   background-color:rgba(244,244,244, 0.4);
   border: solid black 4px;
   font-size:30px;
-  height:250px;
+  height:200px;
   overflow:hidden;
-  transition:0.5s linear all;
-  -webkit-transition:0.5s linear all;
+  transition:0.5s ease all;
+  -webkit-transition:0.5s ease all;
   width: 150px;
+  #position:relative;
 }
 
 .box.flipped {
@@ -68,26 +69,41 @@ li{
 }
 .box.ng-hide {
   opacity:0;
-  margin-left:300px;
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
+.box-view.ng-enter, box-view.ng-leave {
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+.box-view.ng-enter {
+  box-shadow: 1px 1px 4px rgba(10,10,10,0.2);
+}
+.box-view.ng-enter.ng-enter-active {
+  opacity:1;
+  -webkit-transition:1s linear all;
+  transition:1s linear all;
+}
+
 .box-name {
   text-align:center;
   margin: 4px 4px;
-  -webkit-transition-delay:0.3s;
-  transition-delay:0.3s;
+  -webkit-transition:0.2s cubic-bezier(0.5,0.5,0.7,1) all;
+  -webkit-transition-delay:0.07s;
+  transition-delay:0.07s;
 }
 
 .box-name.flipped {
-  margin-left:-300px;
+  margin-left:-250px;
   -webkit-transition:0.4s cubic-bezier(1,0.4,0,0.74) all;
   transition: 0.4s cubic-bezier(1,0.4,0,0.74) all;
 }
 
 .toggle-on-icon{
-  margin:0px 7px 0px 2px;
+  margin:0 4px 0 2px;
 }
