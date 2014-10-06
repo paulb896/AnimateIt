@@ -99,7 +99,7 @@ li{
 }
 
 .box-name.flipped {
-  margin-left:-250px;
+  margin-left:-300px;
   -webkit-transition:0.4s cubic-bezier(1,0.4,0,0.74) all;
   transition: 0.4s cubic-bezier(1,0.4,0,0.74) all;
 }
