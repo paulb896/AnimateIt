@@ -16,20 +16,20 @@ Animations with CSS3 triggered by angular events.
 In the command prompt:
 
 
-* Clone the repository
+1. Clone the repository
 
         git clone https://github.com/paulb896/AnimateIt
 
-* In the AnimateIt directory:
+1. In the AnimateIt directory:
 
         npm install
 
 
-* Then install node dependencies
+1. Then install node dependencies
 
         npm install
 
 
-* Finally install bower dependencies
+1. Finally install bower dependencies
 
         nodejs node_modules/bower/bin/bower install
